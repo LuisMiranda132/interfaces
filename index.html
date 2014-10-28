@@ -2,6 +2,7 @@
   <head>
     <!-- <meta charset="ISO-8859-1"> -->
     <meta charset="UTF-8">
+    <font >
     <title>Papelingo</title>
     
     <style type="text/css">
@@ -19,8 +20,26 @@
       top: 0;
       right: 0;
       height: 100%;
-      width: 15%;
-      border: 1px solid gray; }
+      width:15%;
+      padding:0px 0px 0px 0px;
+      }
+
+      #nav ul {
+      padding:0px 0px 0px 10px;      
+      height:33%;
+      width:50%;
+      }
+
+      #user {
+      width:125px;
+      height:auto;
+      border: 1px solid #000; 
+      }
+
+      #user img{
+      position:relative;
+      top:-5px;
+      }
 
       #main {
       position:absolute;
@@ -40,28 +59,34 @@
 
       #topgun {
       position:relative;
-      right:0;
+      left:0;
       bottom:0;
-      border:1px solid gray;
       height:15%;
-      width:100%;}
+      width:85%;
+      margin: 0 0 0 0;
+      padding:0px 0px 0px 0px;      
+
+      }
 
       #topgun ul {
       width:100%;
+      right:0;
+      padding:0px 0px 0px 0px;
       margin:0 auto 0 auto;
       }
       
       #topgun ul li {
+      padding:0px 0px 0px 0px;      
       bottom:0;
       float:left;
       color:#CC0000;
-      padding:0 20px 0 20px;
       border-right:1px solid #FFF;
       border-left:1px solid #FFF;
       height:40px;
+      width:230px;
       list-style:none;
       display:block;
-      line-height:3em;
+      line-height:0em;
       text-align:left;
       cursor:pointer;
       }
@@ -70,21 +95,71 @@
       position:relative;
       top:0;
       right:0;
-      border:0;
+      border: 1px solid gray; 
       height:100%;
-      width:100%;}
+      width:85%;}
 
+      #botup {
+      position:relative;
+      top:75%;
+      }
     </style>
   </head>
   <div id="topgun">
     <ul>
-      <li><a href="./welp.html" target="downgun"><h1>Papelingo</h1></a></li>
-      <li><button>Búsqueda</button></li>
-      <li><button>Aleatorio</button></li>
+      <li>
+        <center id="botup">
+          <a href="./welp.html" target="downgun">
+            <h1>Papelingo</h1>
+          </a>
+        </center>
+      </li>
+      <li>
+        <center id="botup">
+          <button>Inicio</button>
+        </center>
+      </li>
+      <li>
+        <center id="botup">
+          <button id="botup">Búsqueda</button>
+        </center>
+      <li>
+        <center id="botup">
+          <button id="botup">Aleatorio</button>
+        </center>
+      </li>
     </ul>
   </div>
   <iframe src="./walp.html" id="downgun" name="downgun"></iframe>
-  <div id="nav">
-    Le menú
-  </div>
+  <center>
+    <div id="nav">
+      <ul>
+        <div id="user">
+          <img src="usr.jpg" height="75" width="75">
+          Chigui_papel42<br>
+          Mercenario de Papel<br>
+          <br>
+          <progress value="50" max="100"></progress><br>
+          experiencia:<br>
+          origamis completados:<br>
+          <div>
+            <ul style="list-style:none;display:block;border:1px solid black">
+              <li style="position:relative;left:0;">
+                F
+              </li>
+              <li style="position:relative;right:0;">
+                C
+              </li>
+            </ul>
+          </div>
+        </div>
+      </ul>
+      <ul>
+        Progreso
+      </ul>
+      <ul>
+        Amigos
+      </ul>
+    </div>
+  </center>
 </html>
