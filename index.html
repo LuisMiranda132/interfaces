@@ -1,16 +1,21 @@
-
 <html>
   <head>
-    <meta charset="ISO-8859-1">
+    <!-- <meta charset="ISO-8859-1"> -->
+    <meta charset="UTF-8">
     <title>Papelingo</title>
     
-    <style>
+    <style type="text/css">
       body{
       margin:0;
       padding:0;
       }
+      
+      .button{
+      bottom:0;
+      }
+      
       #nav {
-      position: absolute;
+      position:absolute;
       top: 0;
       right: 0;
       height: 100%;
@@ -25,14 +30,42 @@
       height:100%;
       width:85%;}
 
+      <!-- #firsttopgun { -->
+      <!-- position:relative; -->
+      <!-- top:0; -->
+      <!-- right:0; -->
+      <!-- border:0px; -->
+      <!-- height:15%; -->
+      <!-- width:15%;} -->
+
       #topgun {
       position:relative;
-      top:0;
       right:0;
+      bottom:0;
       border:1px solid gray;
       height:15%;
       width:100%;}
 
+      #topgun ul {
+      width:100%;
+      margin:0 auto 0 auto;
+      }
+      
+      #topgun ul li {
+      bottom:0;
+      float:left;
+      color:#CC0000;
+      padding:0 20px 0 20px;
+      border-right:1px solid #FFF;
+      border-left:1px solid #FFF;
+      height:40px;
+      list-style:none;
+      display:block;
+      line-height:3em;
+      text-align:left;
+      cursor:pointer;
+      }
+      
       #downgun {
       position:relative;
       top:0;
@@ -43,11 +76,15 @@
 
     </style>
   </head>
-  <div id="main">
-    <iframe src="./menu.html" id="topgun" name="topgun"></iframe>
-    <iframe src="./walp.html" id="downgun" name="downgun"></iframe>
+  <div id="topgun">
+    <ul>
+      <li><a href="./welp.html" target="downgun"><h1>Papelingo</h1></a></li>
+      <li><button>Búsqueda</button></li>
+      <li><button>Aleatorio</button></li>
+    </ul>
   </div>
-<iframe src="./menulad.html" id="nav"><iframe>
-  
-
+  <iframe src="./walp.html" id="downgun" name="downgun"></iframe>
+  <div id="nav">
+    Le menú
+  </div>
 </html>
