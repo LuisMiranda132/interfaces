@@ -25,9 +25,10 @@
       }
 
       #nav ul {
-      padding:0px 0px 0px 10px;      
-      height:33%;
-      width:50%;
+      padding-left:0px;
+      height:100%;
+      width:100%;
+      margin: 25 0 0 0;
       }
 
       #user {
@@ -103,6 +104,16 @@
       position:relative;
       top:75%;
       }
+
+      p.ocho {
+      font-size:5px;
+      }
+
+      progress[value]{
+      width:100px;
+      height:10px;
+      }
+
     </style>
   </head>
   <div id="topgun">
@@ -137,29 +148,30 @@
         <div id="user">
           <img src="usr.jpg" height="75" width="75">
           Chigui_papel42<br>
-          Mercenario de Papel<br>
-          <br>
-          <progress value="50" max="100"></progress><br>
-          experiencia:<br>
-          origamis completados:<br>
-          <div>
-            <ul style="list-style:none;display:block;border:1px solid black">
-              <li style="position:relative;left:0;">
-                F
-              </li>
-              <li style="position:relative;right:0;">
-                C
-              </li>
-            </ul>
+          <p class="ocho">Mercenario de Papel</p>
+          <progress value="30" max="100"></progress><br>
+          <p class="ocho" style="padding-left:2px;text-align:left;">experiencia:</p>
+          <p class="ocho" style="padding-left:2px;text-align:left;">origamis &nbsp; completados:</p>
+          <div style="right:0;display:inline-block;width:10px;border:1px solid black;">
+            F
+          </div>
+          <div style="left:0;display:inline-block;width:10px;border:1px solid black;">
+            C
           </div>
         </div>
+        <div id="progreso" style="margin-top">
+          progreso
+        </div>
+        <div id="amigos">
+          amigos
+        </div>
       </ul>
-      <ul>
-        Progreso
-      </ul>
-      <ul>
-        Amigos
-      </ul>
+      <!-- <ul> -->
+      <!--   Progreso -->
+      <!-- </ul> -->
+      <!-- <ul> -->
+      <!--   Amigos -->
+      <!-- </ul> -->
     </div>
   </center>
 </html>
