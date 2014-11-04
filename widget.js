@@ -3,9 +3,9 @@ function WidgetCallBack(JSONobject)
     var wHelloWorld;
     var wHTML = "";
     
-    for(i=0;i<3;i++){
+    for(i=0;i<6;i++){
         wHelloWorld = JSONobject[i];
-        wHTML += ('<div angle="0" state="desktopView" style="visibility: visible; left: '+wHelloWorld.left+'; top: ' + wHelloWorld.top + '; width: ' + wWidth + '; height: ' + wHeight + '; position: absolute; z-index: auto;background: aquamarine;">'+'<div>');
+        wHTML += ('<div angle="0" state="desktopView" style="visibility: visible; left: '+wHelloWorld.left+'; top: ' + wHelloWorld.top + '; width: ' + wWidth + '; height: ' + wHeight + '; margin: 10px 10px 10px 10px; position: inherit; z-index: auto;background: aquamarine;">'+'<div>');
         
         wHTML += ('<div style="position: relative;width: 100%;height: 70%;display: inline-block;"><div style="position:relative;width: 50%;margin: 0 0 0 0;display: inline-block;float: left;"><img src="' + wHelloWorld.image_ori +'" style="width:100%;padding:2.5% 0 0 2.5%;"></div><div style="text-align:center;position: relative;display:inline-block;width: 45%;top: 25%;float: left;"><p style="text-align:right;margin: 0 0 0 0;">' + wHelloWorld.name + '</p></div></div>');
 

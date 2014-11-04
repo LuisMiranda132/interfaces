@@ -19,9 +19,34 @@ WidgetCallBack([
         "id":"3",
         "top":"245px",
         "left":"45px"        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F4",
+        "id":"4",
+        "top":"245px",
+        "left":"45px"        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F5",
+        "id":"5",
+        "top":"245px",
+        "left":"45px"        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F6",
+        "id":"6",
+        "top":"245px",
+        "left":"45px"        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F7",
+        "id":"7",
+        "top":"245px",
+        "left":"45px"        
     }
-
-    
-
 ]);
         
