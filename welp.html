@@ -2,8 +2,26 @@
   <head>
     <meta charset="ISO-8859-1">
     <title>Welp</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
   </head>
-
   WELP
+  <body>
+    <script>
+      $('body').on('click', '.btn-group button', function (e) {
+      $(this).addClass('active');
+      $(this).siblings().removeClass('active');
+      
+      //do any other button related things
+      });
+    </script>
+    
+    <div class="btn-group">
+      <button type="button" class="btn btn-default">One</button>
+      <button type="button" class="btn btn-default">Two</button>
+      <button type="button" class="btn btn-default">Three</button>
+    </div>
+    <br></br>
+    <p>Click one of the buttons and then click anything else. The button now stays selected!</p>
+  </body>
 </html>

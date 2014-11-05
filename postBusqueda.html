@@ -1,0 +1,184 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="refresh" content="60"> -->
+    <title>Búsqueda</title>
+    <style type="text/css">
+      .navbar-form.navbar-left{
+      margin: 15px 10px 15px 10px;
+      padding: 10px 15px 10px 15px;
+      }
+
+      #busqueda{
+      background-color: #F0F0D8;
+      }
+
+      #tags.checkbox{
+      height: auto;
+      width: auto;
+      }
+
+      #tags ul.checkbox{
+      height: 10%;
+      }
+
+      #tags ul.checkbox li{
+      width: 25%;
+      height: auto;
+      margin: 2% 0% 2% 0%;
+      background-color: rgba(0, 0, 0, 0);
+      }
+
+      #tags.well{
+      width:80%;
+      <!-- margin-left:10%; -->
+      <!-- margin-right:10%; -->
+      }
+
+      #title{
+      position:relative;
+      top: 0;
+      left:0;
+      height:10%;
+      width:100%;
+      margin-left:0.5cm;
+      }
+      
+      #main{
+      position:relative;
+      height:80%;
+      width: 100%;
+      background-color: #F0F0D8;
+      }
+
+      #main ul{
+      height:100%;
+      width:100%;
+      padding: 0px 20px 0px 20px
+      }
+
+      #main ul li{
+      background-color: #F0F0D8;
+      padding:0px 0px 0px 0px;      
+      float:left;
+      color:#CC0000;
+      height:100%;
+      width:50%;
+      list-style:none;
+      display:block;
+      text-align:left;
+      cursor:pointer;
+      }
+
+      #searchzone {
+      }
+
+      #searchbox {
+      width:100%;
+      height:15%;
+      }
+
+      #results.well {
+      height: 100%;
+      overflow-y: scroll;
+      }
+    </style>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body id="busqueda">
+    <div id="title">      
+      <h1>Búsqueda :)</h1>
+    </div>
+    <div id="main">
+      <ul>
+	<li>
+	  <!-- Abre - Searchbox -->
+	  <div id="searchbox">
+	    <form class="navbar-form navbar-left" role="search" margin="20 10 20 10">
+	      <div class="form-group">
+		<input type="text" class="form-control" placeholder="Buscar origami">
+	      </div>
+	      <button type="submit" class="btn btn-default">Buscar</button>
+	    </form>
+	  </div>
+	  <!-- Cierra - Searchbox -->
+	  <!-- Abre - Tags -->
+	  <div id="tags" class="well">
+	    <h4>Etiquetas:</h4>
+	    <ul class="checkbox">
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #1
+		</label>
+	      </li>
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #2
+		</label>
+	      </li>
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #3
+		</label>
+	      </li>
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #4
+		</label>
+	      </li>
+	    </ul>
+	    <ul class="checkbox">
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #5
+		</label>
+	      </li>
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #6
+		</label>
+	      </li>
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #7
+		</label>
+	      </li>
+	      <li>
+		<label id="tags" class="checkbox">
+		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #8
+		</label>
+	      </li>
+	    </ul>
+	  </div>
+	</li>
+	<!-- Cierra -  Tags -->
+	<!-- Abre - Results -->
+	<li>
+	  <div id="results" class="well">
+	    Le resultados<br/>
+	    <ul>
+	      <li style="background-color:rgba(0,0,0,0)">
+	      	<script type='text/javascript'>
+	      	  wWidth = "75px";
+	      	  wHeight = "75px";
+	      	  wTitle = "walp";
+	      	  document.write('<div id="myFirstWidget"></div>');
+	      	  document.write('<scr'+'ipt type="text/JavaScript" src="bootstrap.js" /></scr'+'ipt>');
+                </script>
+	      </li>
+	    </ul>
+	  </div>
+	</li>
+	<!-- Cierra -  Results -->
+      </ul>
+    </div>
+    <!-- <form class="form-search" method="get" id="s" action="/"> -->
+    <!--   <div class="input-append"> -->
+    <!--     <input type="text" class="input-medium search-query" name="s" placeholder="Search" value=""> -->
+    <!--     <button type="submit" class="add-on"><i class="icon-search">Buscar</i></button> -->
+    <!--   </div> -->
+    <!-- </form> -->
+  </body>
+</html>
