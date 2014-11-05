@@ -3,50 +3,143 @@ WidgetCallBack([
         "image_ori":"arrow1.jpg",
         "name":"Flecha",
         "id":"1",
-        "top":"45px",
-        "left":"45px"
+        "top":"245px",
+        "left":"20px",
+        "dif":"1",
+        "prev":[]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"origami_crane-1979px.png",
+        "name":"F1",
+        "id":"2",
+        "top":"305px",
+        "left":"135px",
+        "dif":"1",
+        "prev":[0]
+    },
+    {
+        "image_ori":"origami_crane-1979px.png",
         "name":"F2",
         "id":"2",
-        "top":"145px",
-        "left":"45px"
+        "top":"185px",
+        "left":"135px",
+        "dif":"1",
+        "prev":[0]
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F3",
         "id":"3",
-        "top":"245px",
-        "left":"45px"        
+        "top":"115px",
+        "left":"250px",
+        "dif":"1",
+        "prev":[2]
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F4",
-        "id":"4",
-        "top":"245px",
-        "left":"45px"        
+        "id":"3",
+        "top":"225px",
+        "left":"250px",
+        "dif":"2",
+        "prev":[2]
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F5",
-        "id":"5",
-        "top":"245px",
-        "left":"45px"        
+        "id":"3",
+        "top":"375px",
+        "left":"250px",
+        "dif":"2",
+        "prev":[1]
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F6",
-        "id":"6",
-        "top":"245px",
-        "left":"45px"        
+        "id":"4",
+        "top":"185px",
+        "left":"375px",
+        "dif":"2",
+        "prev":[3,4]
+    
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F7",
+        "id":"5",
+        "top":"305px",
+        "left":"485px",
+        "dif":"2",
+        "prev":[6,5]        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F8",
+        "id":"6",
+        "top":"245px",
+        "left":"620px",
+        "dif":"1",
+        "prev":[7]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F9",
         "id":"7",
         "top":"245px",
-        "left":"45px"        
+        "left":"735px",
+        "dif":"1",
+        "prev":[8]        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F10",
+        "id":"7",
+        "top":"245px",
+        "left":"845px",
+        "dif":"1",
+        "prev":[9]      
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F11",
+        "id":"7",
+        "top":"245px",
+        "left":"960px",
+        "dif":"1",
+        "prev":[10]        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F12",
+        "id":"7",
+        "top":"245px",
+        "left":"1075px",
+        "dif":"1",
+        "prev":[11]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F11",
+        "id":"7",
+        "top":"245px",
+        "left":"1190px",
+        "dif":"1"        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F12",
+        "id":"7",
+        "top":"245px",
+        "left":"1305px",
+        "dif":"1"        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F13",
+        "id":"7",
+        "top":"245px",
+        "left":"1420px",
+        "dif":"1"        
     }
 ]);
         
