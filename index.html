@@ -32,10 +32,11 @@
 
       #user {
       width:125px;
-      height:auto;
-      border: 1px solid #000; 
+      height:220px;
+      border: 1px solid #000;
+      background-color:F0F0D8;
       }
- 
+      
       #user img{
       position:relative;
       top:-5px;
@@ -80,8 +81,6 @@
       bottom:0;
       float:left;
       color:#CC0000;
-      border-right:1px solid #FFF;
-      border-left:1px solid #FFF;
       height:40px;
       width:230px;
       list-style:none;
@@ -96,7 +95,7 @@
       top:0;
       right:0;
       border: 1px solid gray; 
-      height:84%;
+      height:85%;
       width:85%;}
 
       #botup {
@@ -112,7 +111,7 @@
       width:100px;
       height:10px;
       }
-
+      
     </style>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- <script type="text/javascript"> -->
@@ -120,80 +119,82 @@
     <!--   $('body').on('click', '.btn-group button', function (e) { -->
     <!--   $(this).addClass('active'); -->
     <!--   $(this).siblings().removeClass('active'); -->
-      
+    
     <!--   //do any other button related things -->
     <!--   }); -->
     <!--   }); -->
     <!-- </script> -->
 
   </head>
-
-  <div id="topgun" class="btn-group">
-    <ul>
-      <li>
-        <center id="botup">
-          <a href="./widget.html" target="downgun">
-            <h1 style="margin: 0px 0px 0px 0px">Papelingo</h1>
-          </a>
-        </center>
-      </li>
-      <li>
-        <center id="botup">
-          <a href="./widget.html" target="downgun">
-            <button type="button" class="btn btn-default btn-lg">
-	      Inicio
-	    </button>
-	  </a>
-        </center>
-      </li>
-      <li>
-        <center id="botup">
-          <a href="preBusqueda.html" target="downgun">
-	    <button id="botup" type="button" class="btn btn-default btn-lg">
-	      Búsqueda
-	    </button>
-	  </a>
-        </center>
-      <li>
-        <center id="botup">
+  <body style="background-color:789048">
+    <div id="topgun" class="btn-group">
+      <ul>
+        <li>
+          <center id="botup">
+            <a href="./widget.html" target="downgun">
+              <h1 style="color:F0F0D8;margin: 0px 0px 0px 0px;">Papelingo</h1>
+            </a>
+          </center>
+        </li>
+        <li>
+          <center id="botup">
+            <a href="./widget.html" target="downgun">
+              <button type="button" class="btn btn-default btn-lg">
+	        Inicio
+	      </button>
+	    </a>
+          </center>
+        </li>
+        <li>
+          <center id="botup">
+            <a href="preBusqueda.html" target="downgun">
+	      <button id="botup" type="button" class="btn btn-default btn-lg">
+	        Búsqueda
+	      </button>
+	    </a>
+          </center>
+        <li>
+          <center id="botup">
 	    <button type="button" class="btn btn-default btn-lg">
 	      Aleatorio
 	    </button>
-        </center>
-      </li>
-    </ul>
-  </div>
-  <iframe src="./widget.html" id="downgun" name="downgun"></iframe>
-  <center>
-    <div id="nav">
-      <ul>
-        <div id="user">
-          <img src="usr.jpg" height="75" width="75">
-          Chigui_papel42<br>
-          <p class="ocho">Mercenario de Papel</p>
-          <progress value="30" max="100"></progress><br>
-          <p class="ocho" style="padding-left:2px;text-align:left;">experiencia:</p>
-          <p class="ocho" style="padding-left:2px;text-align:left;">origamis &nbsp; completados:</p>
-          <div style="right:0;display:inline-block;width:10px;border:1px solid black;">
-            <img src="images/favoriteStar.png" style="width:50%;padding:2.5% 0 0 2.5%;">
-          </div>
-          <div style="left:0;display:inline-block;width:10px;border:1px solid black;">
-            C
-          </div>
-        </div>
-        <div id="progreso" style="margin-top">
-          progreso
-        </div>
-        <div id="amigos">
-          amigos
-        </div>
+          </center>
+        </li>
       </ul>
-      <!-- <ul> -->
-      <!--   Progreso -->
-      <!-- </ul> -->
-      <!-- <ul> -->
-      <!--   Amigos -->
-      <!-- </ul> -->
     </div>
-  </center>
+    <iframe src="./widget.html" id="downgun" name="downgun"></iframe>
+    <center>
+      <div id="nav">
+        <ul>
+          <div id="user">
+            <img src="usr.jpg" height="75" width="75">
+            Chigui_papel42<br>
+            <p class="ocho">Mercenario de Papel</p>
+            <progress value="30" max="100"></progress><br>
+            <p class="ocho" style="padding-left:2px;text-align:left;">experiencia:</p>
+            <p class="ocho" style="padding-left:2px;text-align:left;">origamis &nbsp; completados:</p>
+            <div style="float:left;display:inline-block;width:26px;">
+              <img src="images/favoriteStar.png" style="width:50%;padding:2.5% 0 0 2.5%;">
+            </div>
+            <div style="float:right;display:inline-block;width:30px;">
+              <img src="gear.png" style="width:50%;padding:2.5% 0 0 2.5%;">
+            </div>
+          </div>
+          <div id="progreso" style="margin-top:10px">
+            progreso
+          </div>
+          <div id="amigos">
+            amigos
+          </div>
+        </ul>
+        <!-- <ul> -->
+        <!--   Progreso -->
+        <!-- </ul> -->
+        <!-- <ul> -->
+        <!--   Amigos -->
+        <!-- </ul> -->
+      </div>
+    </center>
+  </body>
 </html>
+
