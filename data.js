@@ -59,7 +59,7 @@ WidgetCallBack([
         "id":"4",
         "top":"185px",
         "left":"375px",
-        "dif":"2",
+        "dif":"3",
         "prev":[3,4]
     
     },
@@ -67,9 +67,9 @@ WidgetCallBack([
         "image_ori":"arrow1.jpg",
         "name":"F7",
         "id":"5",
-        "top":"305px",
+        "top":"245px",
         "left":"485px",
-        "dif":"2",
+        "dif":"3",
         "prev":[6,5]        
     },
     {
@@ -78,68 +78,163 @@ WidgetCallBack([
         "id":"6",
         "top":"245px",
         "left":"620px",
-        "dif":"1",
+        "dif":"3",
         "prev":[7]
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F9",
         "id":"7",
-        "top":"245px",
+        "top":"185px",
         "left":"735px",
-        "dif":"1",
+        "dif":"3",
         "prev":[8]        
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F10",
         "id":"7",
-        "top":"245px",
+        "top":"305px",
+        "left":"735px",
+        "dif":"3",
+        "prev":[8]      
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F11",
+        "id":"7",
+        "top":"185px",
         "left":"845px",
-        "dif":"1",
-        "prev":[9]      
+        "dif":"3",
+        "prev":[9]        
     },
     {
         "image_ori":"arrow1.jpg",
-        "name":"F11",
+        "name":"F12",
         "id":"7",
-        "top":"245px",
+        "top":"185px",
         "left":"960px",
-        "dif":"1",
-        "prev":[10]        
-    },
-    {
-        "image_ori":"arrow1.jpg",
-        "name":"F12",
-        "id":"7",
-        "top":"245px",
-        "left":"1075px",
-        "dif":"1",
+        "dif":"4",
         "prev":[11]
-    },
-    {
-        "image_ori":"arrow1.jpg",
-        "name":"F11",
-        "id":"7",
-        "top":"245px",
-        "left":"1190px",
-        "dif":"1"        
-    },
-    {
-        "image_ori":"arrow1.jpg",
-        "name":"F12",
-        "id":"7",
-        "top":"245px",
-        "left":"1305px",
-        "dif":"1"        
     },
     {
         "image_ori":"arrow1.jpg",
         "name":"F13",
         "id":"7",
+        "top":"65px",
+        "left":"960px",
+        "dif":"4",
+        "prev":[11]
+        
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F14",
+        "id":"7",
+        "top":"305px",
+        "left":"845px",
+        "dif":"4",
+        "prev":[10]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F15",
+        "id":"7",
+        "top":"425px",
+        "left":"960px",
+        "dif":"4",
+        "prev":[14]
+    }
+    ,
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F16",
+        "id":"7",
+        "top":"305px",
+        "left":"960px",
+        "dif":"4",
+        "prev":[14]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F17",
+        "id":"7",
         "top":"245px",
-        "left":"1420px",
-        "dif":"1"        
+        "left":"1075px",
+        "dif":"4",
+        "prev":[16,12]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F18",
+        "id":"7",
+        "top":"185px",
+        "left":"1190px",
+        "dif":"5",
+        "prev":[17,13]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F19",
+        "id":"7",
+        "top":"305px",
+        "left":"1190px",
+        "dif":"5",
+        "prev":[17]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F20",
+        "id":"7",
+        "top":"425px",
+        "left":"1075px",
+        "dif":"5",
+        "prev":[15]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F21",
+        "id":"7",
+        "top":"425px",
+        "left":"1190px",
+        "dif":"5",
+        "prev":[20]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F22",
+        "id":"7",
+        "top":"65px",
+        "left":"1190px",
+        "dif":"5",
+        "prev":[13]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F23",
+        "id":"7",
+        "top":"115px",
+        "left":"1305px",
+        "dif":"5",
+        "prev":[22,18]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F24",
+        "id":"7",
+        "top":"245px",
+        "left":"1305px",
+        "dif":"5",
+        "prev":[18]
+    },
+    {
+        "image_ori":"arrow1.jpg",
+        "name":"F25",
+        "id":"7",
+        "top":"375px",
+        "left":"1305px",
+        "dif":"5",
+        "prev":[19,21]
     }
 ]);
         
