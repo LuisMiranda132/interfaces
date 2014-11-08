@@ -1,6 +1,6 @@
 WidgetCallBack([
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"Flecha",
         "id":"1",
         "top":"245px",
@@ -9,7 +9,7 @@ WidgetCallBack([
         "prev":[]
     },
     {
-        "image_ori":"origami_crane-1979px.png",
+        "image_ori":"images/origami_crane-1979px.png",
         "name":"F1",
         "id":"2",
         "top":"305px",
@@ -18,7 +18,7 @@ WidgetCallBack([
         "prev":[0]
     },
     {
-        "image_ori":"origami_crane-1979px.png",
+        "image_ori":"images/origami_crane-1979px.png",
         "name":"F2",
         "id":"2",
         "top":"185px",
@@ -27,7 +27,7 @@ WidgetCallBack([
         "prev":[0]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F3",
         "id":"3",
         "top":"115px",
@@ -36,7 +36,7 @@ WidgetCallBack([
         "prev":[2]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F4",
         "id":"3",
         "top":"225px",
@@ -45,7 +45,7 @@ WidgetCallBack([
         "prev":[2]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F5",
         "id":"3",
         "top":"375px",
@@ -54,7 +54,7 @@ WidgetCallBack([
         "prev":[1]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F6",
         "id":"4",
         "top":"185px",
@@ -64,7 +64,7 @@ WidgetCallBack([
     
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F7",
         "id":"5",
         "top":"305px",
@@ -73,7 +73,7 @@ WidgetCallBack([
         "prev":[6,5]        
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F8",
         "id":"6",
         "top":"245px",
@@ -82,7 +82,7 @@ WidgetCallBack([
         "prev":[7]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F9",
         "id":"7",
         "top":"245px",
@@ -91,7 +91,7 @@ WidgetCallBack([
         "prev":[8]        
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F10",
         "id":"7",
         "top":"245px",
@@ -100,7 +100,7 @@ WidgetCallBack([
         "prev":[9]      
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F11",
         "id":"7",
         "top":"245px",
@@ -109,7 +109,7 @@ WidgetCallBack([
         "prev":[10]        
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F12",
         "id":"7",
         "top":"245px",
@@ -118,7 +118,7 @@ WidgetCallBack([
         "prev":[11]
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F11",
         "id":"7",
         "top":"245px",
@@ -126,7 +126,7 @@ WidgetCallBack([
         "dif":"1"        
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F12",
         "id":"7",
         "top":"245px",
@@ -134,7 +134,7 @@ WidgetCallBack([
         "dif":"1"        
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F13",
         "id":"7",
         "top":"245px",
