@@ -1,143 +1,158 @@
 WidgetCallBack([
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"Flecha",
         "id":"1",
         "top":"245px",
         "left":"20px",
         "dif":"1",
-        "prev":[]
+        "prev":[],
+        "link":"inicioLeccion.html"
     },
     {
-        "image_ori":"origami_crane-1979px.png",
+        "image_ori":"images/origami_crane-1979px.png",
         "name":"F1",
         "id":"2",
         "top":"305px",
         "left":"135px",
         "dif":"1",
-        "prev":[0]
+        "prev":[0],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"origami_crane-1979px.png",
+        "image_ori":"images/origami_crane-1979px.png",
         "name":"F2",
         "id":"2",
         "top":"185px",
         "left":"135px",
         "dif":"1",
-        "prev":[0]
+        "prev":[0],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F3",
         "id":"3",
         "top":"115px",
         "left":"250px",
         "dif":"1",
-        "prev":[2]
+        "prev":[2],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F4",
         "id":"3",
         "top":"225px",
         "left":"250px",
         "dif":"2",
-        "prev":[2]
+        "prev":[2],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F5",
         "id":"3",
         "top":"375px",
         "left":"250px",
         "dif":"2",
-        "prev":[1]
+        "prev":[1],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F6",
         "id":"4",
         "top":"185px",
         "left":"375px",
         "dif":"3",
         "prev":[3,4]
-    
+        ,
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F7",
         "id":"5",
         "top":"245px",
         "left":"485px",
         "dif":"3",
-        "prev":[6,5]        
+        "prev":[6,5]        ,
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F8",
         "id":"6",
         "top":"245px",
         "left":"620px",
         "dif":"3",
-        "prev":[7]
+        "prev":[7],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F9",
         "id":"7",
         "top":"185px",
         "left":"735px",
         "dif":"3",
-        "prev":[8]        
+        "prev":[8]        ,
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F10",
         "id":"7",
         "top":"305px",
         "left":"735px",
         "dif":"3",
-        "prev":[8]      
+        "prev":[8]      ,
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F11",
         "id":"7",
         "top":"185px",
         "left":"845px",
         "dif":"3",
-        "prev":[9]        
+        "prev":[9]        ,
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F12",
         "id":"7",
         "top":"185px",
         "left":"960px",
         "dif":"4",
-        "prev":[11]
+        "prev":[11],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F13",
         "id":"7",
         "top":"65px",
         "left":"960px",
         "dif":"4",
         "prev":[11]
-        
+        ,
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F14",
         "id":"7",
         "top":"305px",
         "left":"845px",
         "dif":"4",
-        "prev":[10]
+        "prev":[10],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F15",
         "id":"7",
         "top":"425px",
@@ -147,94 +162,104 @@ WidgetCallBack([
     }
     ,
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F16",
         "id":"7",
         "top":"305px",
         "left":"960px",
         "dif":"4",
-        "prev":[14]
+        "prev":[14],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F17",
         "id":"7",
         "top":"245px",
         "left":"1075px",
         "dif":"4",
-        "prev":[16,12]
+        "prev":[16,12],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F18",
         "id":"7",
         "top":"185px",
         "left":"1190px",
         "dif":"5",
-        "prev":[17,13]
+        "prev":[17,13],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F19",
         "id":"7",
         "top":"305px",
         "left":"1190px",
         "dif":"5",
-        "prev":[17]
+        "prev":[17],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F20",
         "id":"7",
         "top":"425px",
         "left":"1075px",
         "dif":"5",
-        "prev":[15]
+        "prev":[15],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F21",
         "id":"7",
         "top":"425px",
         "left":"1190px",
         "dif":"5",
-        "prev":[20]
+        "prev":[20],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F22",
         "id":"7",
         "top":"65px",
         "left":"1190px",
         "dif":"5",
-        "prev":[13]
+        "prev":[13],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F23",
         "id":"7",
         "top":"115px",
         "left":"1305px",
         "dif":"5",
-        "prev":[22,18]
+        "prev":[22,18],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F24",
         "id":"7",
         "top":"245px",
         "left":"1305px",
         "dif":"5",
-        "prev":[18]
+        "prev":[18],
+        "link":"notyet.html"
     },
     {
-        "image_ori":"arrow1.jpg",
+        "image_ori":"images/arrow1.jpg",
         "name":"F25",
         "id":"7",
         "top":"375px",
         "left":"1305px",
         "dif":"5",
-        "prev":[19,21]
+        "prev":[19,21],
+        "link":"notyet.html"
     }
 ]);
-        
+
