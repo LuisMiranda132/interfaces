@@ -2,7 +2,13 @@
   <head>
     <meta charset="UTF-8">
     <title>Papelingo - Lección</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
+
+      p {
+      margin: 1% 1% 1% 1%;
+      }
+
       #title {
       margin: 10px 10px 10px 10px;
       width: 90%;
@@ -11,6 +17,7 @@
       #body {
       width: 100%;
       height: 100%;
+      margin: 15px 0px 0px 15px;
       }
       
       #body ul {
@@ -18,11 +25,11 @@
       }
 
       #body ul li {
-      padding:0px 0px 0px 0px;
-      float:left;
-      height:100%;
-      width:50%;
-      border: 1px solid black;
+      padding: 0px 0px 0px 0px;
+      float: left;
+      height: 100%;
+      width: 45%;
+      <!-- border: 1px solid black; -->
       <!-- list-style:none; -->
       <!-- display:block; -->
       <!-- text-align:left; -->
@@ -42,42 +49,75 @@
       #photo {
       width: 80%;
       height: 50%;
-      border: 1px solid;
+      <!-- border: 1px solid; -->
       margin: 10% 10% 5% 10%;
       }
 
       #otherPhotos {
       width: 70%;
-      border: 1px solid;
+      <!-- border: 1px solid; -->
       margin: 0% 15% 5% 15%;
       }
 
       #tags {
       width: 70%;
-      border: 1px solid;
+      height: 20%;
+      <!-- border: 1px solid; -->
       margin: 0% 15% 5% 15%;
       }
 
+      #tags ul.checkbox{
+      height: 10%;
+      padding: 0px 0px 0px 0px;
+      }
+      
+      #tags ul.checkbox li{
+      width: 25%;
+      height: auto;
+      margin: 2% 0% 2% 0%;
+      background-color: rgba(0, 0, 0, 0);
+      }
+
       #ranking {
-      border: 1px solid;
+      <!-- border: 1px solid; -->
       margin: 5% 10% 5% 10%;
       }
 
       #information {
-      width: 80%;
-      height: 50%;
+      width: 100%;
+      height: 25%;
+      <!-- border: 1px solid; -->
+      margin: 0% 10% 5% 10%;
+      }
+
+      #information ul {
+      width: 100%;
+      height: 100%;
+      padding: 0% 0% 0% 0%;
+      }
+
+      #information ul li {
+      width: 100%;
+
+      height: 25%;
       border: 1px solid;
+      }
+
+      #commentsBox {
+      width: 100%;
+      height: 30%;
+      padding: 2% 2% 2% 2%;
+      <!-- border: 1px solid; -->
       margin: 0% 10% 5% 10%;
       }
 
       #comments {
-      width: 80%;
-      height: 20%;
-      border: 1px solid;
-      margin: 0% 10% 5% 10%;
+      width: 100%;
+      height: 75%;
+      margin: 0px 0px 0px 0px;
+      overflow-y: scroll;
       }
     </style>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
     <div id="title">
@@ -87,27 +127,108 @@
 	<ul>
 	  <li>
 	    <div id="left">
-	      <div id ="photo">
-		Le foto
+	      <div id ="photo" class="well">
+		<img src="images/origami_crane-1979px.png" style="width: 100%; height: 100%">
 	      </div>
-	      <div id="otherPhotos">
+	      <div id="otherPhotos" class="well">
 		Otras fotos :D
 	      </div>
-	      <div id="tags">
-		Tags
+	      <div id="tags" class="well">
+<!--------------------------------------------------->
+<ul class="checkbox">
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #1
+    </label>
+  </li>
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #2
+    </label>
+  </li>
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #3
+    </label>
+  </li>
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #4
+    </label>
+  </li>
+	    </ul>
+<ul class="checkbox">
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #5
+    </label>
+  </li>
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #6
+    </label>
+  </li>
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #7
+    </label>
+  </li>
+  <li>
+    <label id="tags" class="checkbox">
+      <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #8
+    </label>
+  </li>
+</ul>
+<!---------------------------------------------->
 	      </div>
 	    </div>
 	  </li>
 	  <li>
 	    <div id="right">
-	      <div id="ranking">
-		ranking
+	      <div id="ranking" class="well">
+		<p>Puntuación: 10/10</p>
 	      </div>
-	      <div id="information">
-		Le info
+	      <div id="information" class="well">
+		<ul>
+		  <li style="height: 50px">
+		    <div>
+		      <ul style="width: 100%; height: 100%; padding: 0px">
+			<li style="width: 25%; height: 100%">
+			  <p style="width: auto; height: auto">Dificultad:</p>
+			</li>
+			<li style="width: 75%; height: 100%">
+			  <img src="images/3-5.png" style="width:100%; height:100%">
+			</li>
+		      </ul>
+		    </div>
+		  </li>
+		  <li>
+		    <p>Forma del papel: sueños de colores</p>
+		  </li>
+		  <li>
+		    <p>Número de pasos: π</p>
+		  </li>
+		</ul>
 	      </div>
-	      <div id="comments">
-		Le comentarios
+	      <div id="commentsBox" class="well">
+		<h4>Comentarios:</h4>
+		<div id="comments" class="list-group">
+		  <a href="#" class="list-group-item">
+		    <p>¡Gracias a esta interfaz fue muy fácil aprender!</p>
+		  </a>
+		  <a href="#" class="list-group-item">
+		    <p>¡Qué interfaz tan funcional!</p>
+		  </a>
+		  <a href="#" class="list-group-item">
+		    <p>¡Yo aprobaría a los autores de esto! :D</p>
+		  </a>
+		  <a href="#" class="list-group-item">
+		    <p>Antes tenía dolor de estómago, pero gracias a la medicina sistémica mi vida es mucho mejor</p>
+		  </a>
+		  <a href="#" class="list-group-item">
+		    <p>Instructions weren't clear enough. Got my dick caught in a fan</p>
+		  </a>
+		</div>
 	      </div>
 	      <button type="button" class="btn btn-default pull-right">Comenzar</button>
 	    </div>
