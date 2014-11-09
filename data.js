@@ -17,7 +17,7 @@ WidgetCallBack([
         "left":"135px",
         "dif":"1",
         "prev":[0],
-        "link":"notyet.html"
+        "link":"finLeccion.html"
     },
     {
         "image_ori":"images/origami_crane-1979px.png",
