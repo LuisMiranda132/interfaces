@@ -3,10 +3,10 @@ function WidgetCallBack(JSONobject)
     var wHelloWorld;
     var wHTML = "";
     
-    for(i=0;i<13;i++){
+    for(i=0;i<26;i++){
         
         wHelloWorld = JSONobject[i];
-        wHTML += ('<a href="images/notyet.html">')
+        wHTML += ('<a href="'+wHelloWorld.link+'">')
         
         wHTML += ('<div angle="0" state="desktopView" style="visibility: visible; left: '+wHelloWorld.left+'; top: ' + wHelloWorld.top + '; width: ' + wWidth + '; height: ' + wHeight + ';margin-right:10px; position: absolute; z-index: auto;background: C0D860;">'+'<div>');
         
@@ -20,7 +20,7 @@ function WidgetCallBack(JSONobject)
        wHTML = "";
     }
 
-    for(i=0;i<13;i++){
+    for(i=0;i<26;i++){
         var pos = JSONobject[i].prev;
         for(j=0;j<pos.length;j++){
             var lastLeft = parseInt(JSONobject[i].left,10);
