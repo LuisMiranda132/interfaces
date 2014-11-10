@@ -10,7 +10,7 @@ WidgetCallBack([
         "link":"inicioLeccion.html"
     },
     {
-        "image_ori":"images/origami_crane-1979px.png",
+        "image_ori":"images/Origami_-_Crane.svg",
         "name":"F1",
         "id":"2",
         "top":"305px",

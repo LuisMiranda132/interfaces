@@ -8,7 +8,7 @@ function WidgetCallBack(JSONobject)
         wHelloWorld = JSONobject[i];
         wHTML += ('<a href="'+wHelloWorld.link+'">')
         
-        wHTML += ('<div angle="0" state="desktopView" style="visibility: visible; left: '+wHelloWorld.left+'; top: ' + wHelloWorld.top + '; width: ' + wWidth + '; height: ' + wHeight + ';margin-right:10px; position: absolute; z-index: auto;background: C0D860;">'+'<div>');
+        wHTML += ('<div angle="0" state="desktopView" style="visibility: visible; left: '+wHelloWorld.left+'; top: ' + wHelloWorld.top + '; width: ' + wWidth + '; height: ' + wHeight + ';margin-right:10px; position: absolute; z-index: auto;background-color:5CCEEE ;">'+'<div>');
         
         wHTML += ('<div style="position: relative;width: 100%;height: 52%;display: inline-block;"><div style="position:relative;width: 50%;margin: 0 0 0 0;display: inline-block;float: left;"><img src="' + wHelloWorld.image_ori +'" style="width:100%;padding:2.5% 0 0 2.5%;"></div><div style="text-align:center;position: relative;display:inline-block;width: 45%;top: 25%;float: left;"><p style="text-align:right;margin: 0 0 0 0;">' + wHelloWorld.name + '</p></div></div>');
 
