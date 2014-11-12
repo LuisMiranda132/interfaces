@@ -10,11 +10,11 @@
       }
 
       .well{
-      color:604848;
+      color:CACACA;
       }
       
       #busqueda{
-      background-color: #F0F0D8;
+      background-color: #EEE8E8;
       }
       
       #tags.checkbox{
@@ -36,7 +36,6 @@
       
       #tags.well{
       width:80%;
-      border: 1px solid 607848;
       }
       
       #title{
@@ -52,7 +51,7 @@
       position:relative;
       height:80%;
       width: 100%;
-      background-color: #F0F0D8;
+      background-color: #EEE8E8;
       }
       
       #main ul{
@@ -62,7 +61,7 @@
       }
       
       #main ul li{
-      background-color: #F0F0D8;
+      background-color: #EEE8E8;
       padding:0px 0px 0px 0px;      
       float:left;
       color:#CC0000;
@@ -84,8 +83,6 @@
 
       #results.well {
       height: 100%;
-      border: 1px solid 607848;
-      border-right: 2px solid 607848;
       overflow-y: scroll;
       }
     </style>
@@ -116,56 +113,49 @@
 	  <div id="tags" class="well">
 	    <h4>Etiquetas:</h4>
 	    <ul class="checkbox">
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #1
-		</label>
-	      </li>
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #2
-		</label>
-	      </li>
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #3
-		</label>
-	      </li>
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #4
-		</label>
-	      </li>
+                <li>
+                  <span class="label label-default">#sombrero</span>
+                </li>
+                <li>
+                  <span class="label label-default">#tradicional</span>
+                </li>
+                <li>
+                  <span class="label label-default">#fácil</span>
+                </li>
+                <li>
+                  <span class="label label-default">#noModular</span>
+                </li>
 	    </ul>
-	    <ul class="checkbox">
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #5
-		</label>
-	      </li>
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #6
-		</label>
-	      </li>
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #7
-		</label>
-	      </li>
-	      <li>
-		<label id="tags" class="checkbox">
-		  <input type="checkbox" id="inlineCheckbox1" value="option1"> tag #8
-		</label>
-	      </li>
-	    </ul>
+            <ul class="checkbox">
+              <li>
+	        <a href="postBusqueda.html" target="downgun">
+                  <span class="label label-default">#animal</span>
+                </a>
+              </li>
+              <li>
+                <span class="label label-default">#editorFav</span>
+              </li>
+              <li>
+                <span class="label label-default">#niños</span>
+              </li>
+              <li>
+                <span class="label label-default">#vestimento</span>
+              </li>
+            </ul>
 	  </div>
 	</li>
 	<!-- Cierra -  Tags -->
 	<!-- Abre - Results -->
 	<li>
-	  <div id="results" class="well">
-	  </div>
+          
+          <script type='text/javascript'>
+	    wWidth = "75px";
+	    wHeight = "75px";
+	    wTitle = "walp";
+	    document.write('<div id="results" style="position:relative" class="well"></div>');
+	    document.write('<scr'+'ipt type="text/JavaScript" src="search.js" /></scr'+'ipt>');
+</script>
+
 	</li>
 	<!-- Cierra -  Results -->
       </ul>

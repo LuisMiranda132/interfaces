@@ -1,4 +1,4 @@
-document.write('<script type="text/javascript" src="searching2.js"></script>');
+document.write('<script type="text/javascript" src="searching.js"></script>');
 
 var myElement = document.getElementById('results');
 var JavaScriptCode = document.createElement("script");

@@ -7,7 +7,8 @@ WidgetCallBack([
         "left":"20px",
         "dif":"1",
         "prev":[],
-        "link":"inicioLeccion.html"
+        "link":"inicioLeccion.html",
+        "animal":false
     },
     {
         "image_ori":"images/traditional boat.jpg",
@@ -17,7 +18,8 @@ WidgetCallBack([
         "left":"135px",
         "dif":"1",
         "prev":[0],
-        "link":"finLeccion.html"
+        "link":"finLeccion.html",
+        "animal":false
     },
     {
         "image_ori":"images/perro.jpg",
@@ -27,7 +29,8 @@ WidgetCallBack([
         "left":"135px",
         "dif":"1",
         "prev":[0],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":true
     },
     {
         "image_ori":"images/zorro.jpg",
@@ -37,7 +40,8 @@ WidgetCallBack([
         "left":"250px",
         "dif":"1",
         "prev":[2],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":true
     },
     {
         "image_ori":"images/gato.jpg",
@@ -47,7 +51,8 @@ WidgetCallBack([
         "left":"250px",
         "dif":"2",
         "prev":[2],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":true
     },
     {
         "image_ori":"images/steamboat.jpg",
@@ -57,7 +62,8 @@ WidgetCallBack([
         "left":"250px",
         "dif":"1",
         "prev":[1],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/conejo.jpg",
@@ -66,9 +72,9 @@ WidgetCallBack([
         "top":"185px",
         "left":"375px",
         "dif":"1",
-        "prev":[3,4]
-        ,
-        "link":"notyet.html"
+        "prev":[3,4]       ,
+        "link":"notyet.html",
+        "animal":true
     },
     {
         "image_ori":"images/ninja star.jpg",
@@ -78,7 +84,8 @@ WidgetCallBack([
         "left":"485px",
         "dif":"1",
         "prev":[6,5]        ,
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/angel.jpg",
@@ -88,7 +95,8 @@ WidgetCallBack([
         "left":"620px",
         "dif":"2",
         "prev":[7],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -98,7 +106,8 @@ WidgetCallBack([
         "left":"735px",
         "dif":"3",
         "prev":[8]        ,
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -108,7 +117,8 @@ WidgetCallBack([
         "left":"735px",
         "dif":"3",
         "prev":[8]      ,
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -118,7 +128,8 @@ WidgetCallBack([
         "left":"845px",
         "dif":"3",
         "prev":[9]        ,
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -128,7 +139,8 @@ WidgetCallBack([
         "left":"960px",
         "dif":"4",
         "prev":[11],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -139,7 +151,8 @@ WidgetCallBack([
         "dif":"4",
         "prev":[11]
         ,
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -149,7 +162,8 @@ WidgetCallBack([
         "left":"845px",
         "dif":"4",
         "prev":[10],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -169,7 +183,8 @@ WidgetCallBack([
         "left":"960px",
         "dif":"4",
         "prev":[14],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -179,7 +194,8 @@ WidgetCallBack([
         "left":"1075px",
         "dif":"4",
         "prev":[16,12],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -189,7 +205,8 @@ WidgetCallBack([
         "left":"1190px",
         "dif":"5",
         "prev":[17,13],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -199,7 +216,8 @@ WidgetCallBack([
         "left":"1190px",
         "dif":"5",
         "prev":[17],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -209,7 +227,8 @@ WidgetCallBack([
         "left":"1075px",
         "dif":"5",
         "prev":[15],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -219,7 +238,8 @@ WidgetCallBack([
         "left":"1190px",
         "dif":"5",
         "prev":[20],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -229,7 +249,8 @@ WidgetCallBack([
         "left":"1190px",
         "dif":"5",
         "prev":[13],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/arrow1.jpg",
@@ -239,7 +260,8 @@ WidgetCallBack([
         "left":"1305px",
         "dif":"5",
         "prev":[22,18],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/origami-grim-reaper.png",
@@ -249,7 +271,8 @@ WidgetCallBack([
         "left":"1305px",
         "dif":"5",
         "prev":[18],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     },
     {
         "image_ori":"images/origami-bahamut.png",
@@ -259,7 +282,8 @@ WidgetCallBack([
         "left":"1305px",
         "dif":"5",
         "prev":[19,21],
-        "link":"notyet.html"
+        "link":"notyet.html",
+        "animal":false
     }
 ]);
 
