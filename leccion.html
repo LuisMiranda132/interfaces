@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <title>Papelingo - Lección</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
 
       p {
@@ -20,8 +21,6 @@
 
       #body {
       width: 100%;
-      <!-- height: 100%; -->
-      <!-- margin: 15px 0px 0px 15px; -->
       height: 85%;
       }
       
@@ -37,30 +36,25 @@
       #body ul li {
       padding: 0px 0px 0px 0px;
       float: left;
-      height: 100%;
+      height: 75%;
       width: 45%;
-      <!-- border: 1px solid black; -->
-      <!-- list-style:none; -->
-      <!-- display:block; -->
-      <!-- text-align:left; -->
-      <!-- cursor:pointer; -->
       }
 
       #left {
       width: 100%;
-      height: 89%;
+      height: 90%;
       margin-left: 5%;
       }
 
       #right {
       width: 100%;
-      height: 89%;
+      height: 90%;
       margin-left: 5%;
       }
 
       #photo {
       width: 90%;
-      height: 70%;
+      height: 80%;
       <!-- border: 1px solid; -->
       margin: 10% 10% 5% 10%;
       }
@@ -68,8 +62,6 @@
       #otherPhotos {
       width: 80%;
       margin: 0% 0% 5% 5%;
-      <!-- border: 1px solid; -->
-      <!-- margin: 0% 15% 5% 15%; -->
       }
 
       #step {
@@ -104,9 +96,57 @@
 	      </div>
 	    </div>
 	  </li>
+          <li style="width:auto;height:auto">
+	    <div class='container'>
+	      <div class="span13" style="margin-left: 25%">
+		<section id="wizard">
+		  <div id="rootwizard">
+		    <div class="navbar">
+		      <!-- <div class="navbar-inner"> -->
+		      <div>
+			<div class="container">
+			  <ul>
+			    <li style="width:auto; height:auto"><a href="#tab1" data-toggle="tab">First</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab2" data-toggle="tab">Second</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab3" data-toggle="tab">Third</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab4" data-toggle="tab">Forth</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab5" data-toggle="tab">Fifth</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab6" data-toggle="tab">Sixth</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab7" data-toggle="tab">Seventh</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab7" data-toggle="tab">Eigth</a></li>
+			  </ul>
+			</div>
+		      </div>
+		    </div>
+		    <div id="bar" class="progress progress-striped active">
+		      <div class="bar"></div>
+		    </div>
+		    <ul class="pager wizard" style="margin:0px 0px 20px 0px">
+		      <li class="previous" style="height: auto"><a href="#">Previous</a></li>
+		      <li class="next" style="height: auto"><a href="#">Next</a></li>
+		    </ul>
+		    
+		  </div>
+		</section>
+	      </div>
+	    </div>
+	    <script src="jquery-latest.js"></script>
+	    <script src="bootstrap/js/bootstrap.min.js"></script>
+	    <script src="jquery.bootstrap.wizard.js"></script>
+	    <script>
+	      $(document).ready(function() {
+	      $('#rootwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
+	      var $total = navigation.find('li').length;
+	      var $current = index+1;
+	      var $percent = ($current/$total) * 100;
+	      $('#rootwizard').find('.bar').css({width:$percent+'%'});
+	      }});	
+	      window.prettyPrint && prettyPrint()
+	      });	
+	    </script>
+	  </li>
 	</ul>
     </div>
-    
   </body>
 </html>
 
