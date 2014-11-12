@@ -81,10 +81,10 @@
 	  <li>
 	    <div id="left">
 	      <div id ="photo" class="well">
-		<img src="images/origami_crane-1979px.png" style="width: 100%; height: 100%">
+		<img src="images/hat.jpg" style="width: 100%; height: 100%">
 	      </div>
 	      <div id="otherPhotos" class="well">
-		Otras fotos :D
+		<img src="images/hat.jpg" style="width: 20%">
 	      </div>
 	    </div>
 	  </li>
@@ -113,7 +113,7 @@
 			    <li style="width:auto; height:auto"><a href="#tab5" data-toggle="tab">Fifth</a></li>
 			    <li style="width:auto; height:auto"><a href="#tab6" data-toggle="tab">Sixth</a></li>
 			    <li style="width:auto; height:auto"><a href="#tab7" data-toggle="tab">Seventh</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab7" data-toggle="tab">Eigth</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab8" data-toggle="tab">Eigth</a></li>
 			  </ul>
 			</div>
 		      </div>
@@ -135,6 +135,9 @@
 	    <script>
 	      $(document).ready(function() {
 	      $('#rootwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
+	      if (index == 8) {
+	      window.load("finLeccion.html");
+	      }
 	      var $total = navigation.find('li').length;
 	      var $current = index+1;
 	      var $percent = ($current/$total) * 100;
