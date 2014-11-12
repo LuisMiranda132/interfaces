@@ -1,7 +1,7 @@
 WidgetCallBack([
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"Flecha",
+        "image_ori":"images/hat.jpg",
+        "name":"Simple Hat",
         "id":"1",
         "top":"245px",
         "left":"20px",
@@ -10,8 +10,8 @@ WidgetCallBack([
         "link":"inicioLeccion.html"
     },
     {
-        "image_ori":"images/Origami_-_Crane.svg",
-        "name":"F1",
+        "image_ori":"images/traditional boat.jpg",
+        "name":"Barco",
         "id":"2",
         "top":"305px",
         "left":"135px",
@@ -20,8 +20,8 @@ WidgetCallBack([
         "link":"finLeccion.html"
     },
     {
-        "image_ori":"images/origami_crane-1979px.png",
-        "name":"F2",
+        "image_ori":"images/perro.jpg",
+        "name":"Perro",
         "id":"2",
         "top":"185px",
         "left":"135px",
@@ -30,8 +30,8 @@ WidgetCallBack([
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F3",
+        "image_ori":"images/zorro.jpg",
+        "name":"Zorro",
         "id":"3",
         "top":"115px",
         "left":"250px",
@@ -40,8 +40,8 @@ WidgetCallBack([
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F4",
+        "image_ori":"images/gato.jpg",
+        "name":"Gato",
         "id":"3",
         "top":"225px",
         "left":"250px",
@@ -50,43 +50,43 @@ WidgetCallBack([
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F5",
+        "image_ori":"images/steamboat.jpg",
+        "name":"Barco Vapor",
         "id":"3",
         "top":"375px",
         "left":"250px",
-        "dif":"2",
+        "dif":"1",
         "prev":[1],
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F6",
+        "image_ori":"images/conejo.jpg",
+        "name":"Conejo",
         "id":"4",
         "top":"185px",
         "left":"375px",
-        "dif":"3",
+        "dif":"1",
         "prev":[3,4]
         ,
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F7",
+        "image_ori":"images/ninja star.jpg",
+        "name":"Ninja Star",
         "id":"5",
         "top":"245px",
         "left":"485px",
-        "dif":"3",
+        "dif":"1",
         "prev":[6,5]        ,
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F8",
+        "image_ori":"images/angel.jpg",
+        "name":"Angel",
         "id":"6",
         "top":"245px",
         "left":"620px",
-        "dif":"3",
+        "dif":"2",
         "prev":[7],
         "link":"notyet.html"
     },
@@ -242,8 +242,8 @@ WidgetCallBack([
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F24",
+        "image_ori":"images/origami-grim-reaper.png",
+        "name":"Reaper",
         "id":"7",
         "top":"245px",
         "left":"1305px",
@@ -252,8 +252,8 @@ WidgetCallBack([
         "link":"notyet.html"
     },
     {
-        "image_ori":"images/arrow1.jpg",
-        "name":"F25",
+        "image_ori":"images/origami-bahamut.png",
+        "name":"Demon",
         "id":"7",
         "top":"375px",
         "left":"1305px",
