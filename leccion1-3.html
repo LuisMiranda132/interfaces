@@ -114,6 +114,7 @@
 			    <li style="width:auto; height:auto"><a href="#tab6" data-toggle="tab">Sixth</a></li>
 			    <li style="width:auto; height:auto"><a href="#tab7" data-toggle="tab">Seventh</a></li>
 			    <li style="width:auto; height:auto"><a href="#tab8" data-toggle="tab">Eigth</a></li>
+			    <li style="width:auto; height:auto"><a href="#tab9" data-toggle="tab">Fin</a></li>
 			  </ul>
 			</div>
 		      </div>
@@ -135,9 +136,6 @@
 	    <script>
 	      $(document).ready(function() {
 	      $('#rootwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
-	      if (index == 8) {
-	      window.load("finLeccion.html");
-	      }
 	      var $total = navigation.find('li').length;
 	      var $current = index+1;
 	      var $percent = ($current/$total) * 100;
@@ -151,4 +149,3 @@
     </div>
   </body>
 </html>
-
