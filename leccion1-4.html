@@ -106,15 +106,15 @@
 		      <div>
 			<div class="container">
 			  <ul>
-			    <li style="width:auto; height:auto"><a href="#tab1" data-toggle="tab">First</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab2" data-toggle="tab">Second</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab3" data-toggle="tab">Third</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab4" data-toggle="tab">Forth</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab5" data-toggle="tab">Fifth</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab6" data-toggle="tab">Sixth</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab7" data-toggle="tab">Seventh</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab8" data-toggle="tab">Eigth</a></li>
-			    <li style="width:auto; height:auto"><a href="#tab9" data-toggle="tab">Fin</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-1.html">1</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-2.html">2</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-3.html">3</a></li>
+			    <li class="active" style="width:auto; height:auto"><a href="#tab4" data-toggle="tab">4</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-5.html">5</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-6.html">6</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-7.html">7</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-8.html">8</a></li>
+			    <li style="width:auto; height:auto"><a href="leccion1-9.html">9</a></li>
 			  </ul>
 			</div>
 		      </div>
@@ -123,8 +123,8 @@
 		      <div class="bar"></div>
 		    </div>
 		    <ul class="pager wizard" style="margin:0px 0px 20px 0px">
-		      <li class="previous" style="height: auto"><a href="#">Previous</a></li>
-		      <li class="next" style="height: auto"><a href="#">Next</a></li>
+		      <li style="height: auto"><a href="leccion1-3.html">Previous</a></li>
+		      <li style="height: auto"><a href="leccion1-5.html">Next</a></li>
 		    </ul>
 		  </div>
 		</section>
@@ -137,7 +137,7 @@
 	      $(document).ready(function() {
 	      $('#rootwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
 	      var $total = navigation.find('li').length;
-	      var $current = index+1;
+	      var $current = 4;
 	      var $percent = ($current/$total) * 100;
 	      $('#rootwizard').find('.bar').css({width:$percent+'%'});
 	      }});	
