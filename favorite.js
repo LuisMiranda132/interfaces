@@ -7,7 +7,7 @@ function WidgetCallBack(JSONobject)
     for(i=0;i<26;i++){
         
         wHelloWorld = JSONobject[i];
-        if(wHelloWorld.animal){
+        if(wHelloWorld.fav){
             j=j+1;
             wHTML += ('<a href="notyet.html">')
 
