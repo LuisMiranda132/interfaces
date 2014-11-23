@@ -2,8 +2,10 @@ function WidgetCallBack(JSONobject)
 {    
     var wHelloWorld;
     var wHTML = "";
+
+    var total = 18;
     
-    for(i=0;i<26;i++){
+    for(i=0;i<total;i++){
         
         wHelloWorld = JSONobject[i];
         wHTML += ('<a href="'+wHelloWorld.link+'">')
@@ -25,7 +27,7 @@ function WidgetCallBack(JSONobject)
        wHTML = "";
     }
 
-    for(i=0;i<26;i++){
+    for(i=0;i<total;i++){
         var pos = JSONobject[i].prev;
         for(j=0;j<pos.length;j++){
             var lastLeft = parseInt(JSONobject[i].left,10);
