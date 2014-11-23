@@ -6,6 +6,14 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
 
+      .red {
+      color: red;
+      }
+
+      .green {
+      color: green;
+      }
+
       p {
       margin: 1% 1% 1% 1%;
       }
@@ -54,10 +62,28 @@
 
       #photo {
       width: 412px;
-      height: 248px;
-      margin-bottom:5%;
+      height: 240px;
+      margin-bottom: 0%;
       }
 
+      #eval {
+      height: 15%;
+      width: 412px;
+      }
+      
+      #eval ul {
+      height: 100%;
+      width: 100%;
+      padding: 0%;
+      margin: 0%;
+      }
+
+      #eval ul li {
+      height: 100%;
+      width: 50%;
+      border: 1px solid;
+      }
+      
       #otherPhotos {
       width: 70%;
       margin: 0% 0% 5% 7%;
@@ -67,8 +93,6 @@
       #step {
       height: 100%;
       width: 100%;
-      <!-- border: 1px solid; -->
-      margin: 5% 10% 5% 10%;
       }
     </style>
   </head>
@@ -83,6 +107,17 @@
 	      <div id ="photo" class="well">
 		<img src="images/hat.jpg" style="width: 100%; height: 100%">
 	      </div>
+	      <div id="eval">
+		<ul>
+		  <li>
+		    <span class="glyphicon glyphicon-remove red" aria-hidden="true"></span>
+		    <span class="glyphicon glyphicon-ok green" aria-hidden="true"></span>
+		  </li>
+		  <li style="background-color:black">
+		    Le video
+		  </li>
+		</ul>
+	      </div>
 	      <div id="otherPhotos" class="well">
 		<img src="images/hat.jpg" style="width: 20%">
 	      </div>
@@ -91,7 +126,7 @@
 	  <li>
 	    <div id="right">
 	      <div style="padding: 0% 0% 2% 80%">
-		<button type="button" class="btn btn-large" style="padding: 5%">
+		<button type="button" class="btn btn-large" style="padding: 6%">
 		  <span class="glyphicon glyphicon-facetime-video"></span> Cámara
 		</button>
 	      </div>
@@ -103,8 +138,8 @@
 	  </li>
           <li style="width:auto;height:auto">
 	    <div class='container'>
-	      <div class="span13" style="margin-left: 25%">
-		<section id="wizard">
+	      <div class="span13" style="margin-left: 35%">
+		<section id="wizard" style="margin-top: 5%">
 		  <div id="rootwizard">
 		    <div class="navbar" style="margin-bottom:0px">
 		      <!-- <div class="navbar-inner"> -->
