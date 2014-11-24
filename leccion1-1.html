@@ -27,6 +27,10 @@
       margin-right: 10px;
       }
 
+      .glyphicon.glyphicon-facetime-video {
+      font-size: 30px;
+      }
+
       p {
       margin: 1% 1% 1% 1%;
       }
@@ -38,7 +42,7 @@
       #title {
       height: 10%;
       width: 97%;
-      margin: 10px 0px 10px 0px;
+      margin: 10px 0px 5px 0px;
       }
 
       #title ul {
@@ -89,12 +93,12 @@
 
       #photo {
       width: 412px;
-      height: 240px;
+      height: 215px;
       margin-bottom: 0%;
       }
 
       #eval {
-      height: 15%;
+      height: 25%;
       width: 412px;
       margin-bottom: 10px;
       }
@@ -108,8 +112,7 @@
 
       #eval ul li {
       height: 100%;
-      width: 50%;
-      border: 1px solid;
+      width: 88%;
       }
       
       #otherPhotos {
@@ -123,6 +126,7 @@
       width: 100%;
       }
     </style>
+   <script src="active.js"></script>
   </head>
   <body style="height=457px;background-color:EEE8E8">
     <div id="title">
@@ -131,9 +135,10 @@
 	  <h1>Simple Hat</h1>
 	</li>
 	<li>
-	  <button type="button" class="btn btn-large pull-right" style="padding: 2%">
-	    <span class="glyphicon glyphicon-facetime-video"></span> Cámara
-	  </button>
+          <button onClick="action();" type="button" class="btn btn-default btn-lg pull-right" style="padding: 2%">
+            <span class="glyphicon glyphicon-facetime-video"></span>
+	    <span id="logo" class="glyphicon glyphicon-remove red" style="font-size: 20px; margin: 0px"></span>
+          </button>
 	</li>
       </ul>
     </div>
@@ -146,10 +151,9 @@
 	      </div>
 	      <div id="eval">
 		<ul>
-		  <li>
-		    <span class="glyphicon glyphicon-remove red" aria-hidden="true"></span>
-		    <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
-		    <span class="glyphicon glyphicon-ok green pull-right" aria-hidden="true"></span>
+		  <li style="width: 12%; padding-left: 1%">
+		    <span class="glyphicon glyphicon-remove red pull-right" aria-hidden="true"></span>
+		    <!-- <span class="glyphicon glyphicon-ok green pull-right" aria-hidden="true"></span> -->
 		  </li>
 		  <li style="background-color:black">
 		    Le video
@@ -171,7 +175,7 @@
 	  </li>
           <li style="width:auto;height:auto">
 	    <div class='container'>
-	      <div class="span13" style="margin-left: 27%">
+	      <div class="span13" style="margin-left: 30%">
 		<section id="wizard" style="margin-top: 5%">
 		  <div id="rootwizard">
 		    <div class="navbar" style="margin-bottom:0px">
