@@ -179,11 +179,11 @@
 			<div class="container">
 			  <ul>
 			    <li style="height: auto; width: auto">
-			      <a href="inicioLeccion.html">
+			      <a href="leccion1-8.html">
 				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 			      </a>
 			    </li>
-			    <li class="active" style="width:auto; height:auto"><a href="#tab1" data-toggle="tab">1</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-1.html">1</a></li>
 			    <li style="width: auto; height: auto"><a href="leccion1-2.html">2</a></li>
 			    <li style="width: auto; height: auto"><a href="leccion1-3.html">3</a></li>
 			    <li style="width: auto; height: auto"><a href="leccion1-4.html">4</a></li>
@@ -191,9 +191,10 @@
 			    <li style="width: auto; height: auto"><a href="leccion1-6.html">6</a></li>
 			    <li style="width: auto; height: auto"><a href="leccion1-7.html">7</a></li>
 			    <li style="width: auto; height: auto"><a href="leccion1-8.html">8</a></li>
-			    <li style="width: auto; height: auto"><a href="leccion1-9.html">9</a></li>
+			    <li class="active" style="width:auto; height:auto"><a href="#tab9" data-toggle="tab">9</a></li>
+
 			    <li style="height: auto; width: auto">
-			      <a href="leccion1-2.html">
+			      <a href="finLeccion.html">
 				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 			      </a>
 			    </li>
@@ -214,9 +215,9 @@
 	    <script>
 	      $(document).ready(function() {
 	      $('#rootwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
-	      var $total = navigation.find('li').length -2;
+	      var $total = navigation.find('li').length - 2;
 	      console.log($total);
-	      var $current = 1;
+	      var $current = 9;
 	      var $percent = ($current/$total) * 100;
 	      $('#rootwizard').find('.bar').css({width:$percent+'%'});
 	      }});	
