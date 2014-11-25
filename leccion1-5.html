@@ -6,6 +6,26 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <style type="text/css">
 
+      .red {
+      color: red;
+      }
+
+      .green {
+      color: green;
+      }
+
+      .glyphicon.glyphicon-remove {
+      font-size: 65px;
+      }
+
+      .glyphicon.glyphicon-ok {
+      font-size: 65px;
+      }
+
+      .glyphicon.glyphicon-facetime-video {
+      font-size: 30px;
+      }
+
       p {
       margin: 1% 1% 1% 1%;
       }
@@ -15,8 +35,21 @@
       }
 
       #title {
-      margin: 10px 10px 10px 10px;
-      width: 90%;
+      height: 10%;
+      width: 97%;
+      margin: 10px 0px 5px 0px;
+      }
+
+      #title ul {
+      height: 100%;
+      width: 100%;
+      list-style-type: none;
+      display: flex;
+      }
+
+      #title ul li {
+      height: 100%;
+      width: 46%;
       }
 
       #body {
@@ -25,7 +58,8 @@
       }
       
       #body ul {
-      padding: 0px 20px 0px 20px;
+      padding: 0px;
+      margin: 0px;
       }
 
       #body h1{
@@ -48,16 +82,35 @@
 
       #right {
       width: 100%;
-      height: 90%;
+      height: 104%;
       margin-left: 5%;
       }
 
       #photo {
       width: 412px;
-      height: 248px;
-      margin-bottom:5%;
+      height: 215px;
+      margin-bottom: 0%;
       }
 
+      #eval {
+      height: 25%;
+      width: 412px;
+      padding: 1%;
+      margin-bottom: 10px;
+      }
+      
+      #eval ul {
+      height: 100%;
+      width: 100%;
+      padding: 0%;
+      margin: 0%;
+      }
+
+      #eval ul li {
+      height: 100%;
+      width: 37%;
+      }
+      
       #otherPhotos {
       width: 70%;
       margin: 0% 0% 5% 7%;
@@ -67,14 +120,24 @@
       #step {
       height: 100%;
       width: 100%;
-      <!-- border: 1px solid; -->
-      margin: 5% 10% 5% 10%;
       }
     </style>
+   <script src="active.js"></script>
+   <script src="evaluate.js"></script>
   </head>
   <body style="height=457px;background-color:EEE8E8">
     <div id="title">
-      <h1>Simple Hat</h1>
+      <ul>
+	<li>
+	  <h1>Simple Hat</h1>
+	</li>
+	<li>
+          <button onClick="action();" type="button" class="btn btn-default btn-lg pull-right" style="padding: 2%">
+            <span class="glyphicon glyphicon-facetime-video"></span>
+	    <span id="logo" class="glyphicon glyphicon-remove red" style="font-size: 20px; margin: 0px"></span>
+          </button>
+	</li>
+      </ul>
     </div>
     <div id="body">
 	<ul>
@@ -82,6 +145,16 @@
 	    <div id="left">
 	      <div id ="photo" class="well">
 		<img src="images/hat.jpg" style="width: 100%; height: 100%">
+	      </div>
+	      <div id="eval" class="well">
+		<ul>
+		  <li style="padding-left: 1%">
+		    <span id="evaluacion" onClick="change();" class="glyphicon glyphicon-remove red pull-left"></span>
+		  </li>
+		  <li style="background-color:black; margin-left: 24%">
+		    Le video
+		  </li>
+		</ul>
 	      </div>
 	      <div id="otherPhotos" class="well">
 		<img src="images/hat.jpg" style="width: 20%">
@@ -98,23 +171,32 @@
 	  </li>
           <li style="width:auto;height:auto">
 	    <div class='container'>
-	      <div class="span13" style="margin-left: 25%">
-		<section id="wizard">
+	      <div class="span13" style="margin-left: 30%">
+		<section id="wizard" style="margin-top: 5%">
 		  <div id="rootwizard">
 		    <div class="navbar" style="margin-bottom:0px">
-		      <!-- <div class="navbar-inner"> -->
 		      <div>
 			<div class="container">
 			  <ul>
-			    <li style="width:auto; height:auto"><a href="leccion1-1.html">1</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-2.html">2</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-3.html">3</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-4.html">4</a></li>
+			    <li style="height: auto; width: auto">
+			      <a href="leccion1-4.html">
+				<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			      </a>
+			    </li>
+			    <li style="width: auto; height: auto"><a href="leccion1-1.html">1</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-2.html">2</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-3.html">3</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-4.html">4</a></li>
 			    <li class="active" style="width:auto; height:auto"><a href="#tab5" data-toggle="tab">5</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-6.html">6</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-7.html">7</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-8.html">8</a></li>
-			    <li style="width:auto; height:auto"><a href="leccion1-9.html">9</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-6.html">6</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-7.html">7</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-8.html">8</a></li>
+			    <li style="width: auto; height: auto"><a href="leccion1-9.html">9</a></li>
+			    <li style="height: auto; width: auto">
+			      <a href="leccion1-6.html">
+				<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			      </a>
+			    </li>
 			  </ul>
 			</div>
 		      </div>
@@ -122,10 +204,6 @@
 		    <div id="bar" class="progress progress-striped active">
 		      <div class="bar"></div>
 		    </div>
-		    <ul class="pager wizard" style="margin:0px 0px 20px 0px">
-		      <li style="height: auto"><a href="leccion1-4.html">Previous</a></li>
-		      <li style="height: auto"><a href="leccion1-6.html">Next</a></li>
-		    </ul>
 		  </div>
 		</section>
 	      </div>
@@ -136,7 +214,8 @@
 	    <script>
 	      $(document).ready(function() {
 	      $('#rootwizard').bootstrapWizard({onTabShow: function(tab, navigation, index) {
-	      var $total = navigation.find('li').length;
+	      var $total = navigation.find('li').length -2;
+	      console.log($total);
 	      var $current = 5;
 	      var $percent = ($current/$total) * 100;
 	      $('#rootwizard').find('.bar').css({width:$percent+'%'});
