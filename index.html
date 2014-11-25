@@ -3,7 +3,6 @@
     <meta charset="UTF-8">
     <!-- <font> -->
     <title>Papelingo</title>
-    
     <style type="text/css">
       body{
       margin:0;
@@ -127,6 +126,26 @@
 
   </head>
   <body style="background-color:CACACA">
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span></button>
+            <h4 class="modal-title" id="myModalLabel">Configuracion</h4>
+	  </div>
+	  <div class="modal-body">
+            Era una vaca lechera
+	  </div>
+	  <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Salvar</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+    
     <div id="topgun" class="btn-group">
       <ul>
         <li>
@@ -184,10 +203,10 @@
               </a>
             </div>
             <div style="float:right;display:inline-block;width:26px;">
-              <button id="elbo" type="button" class="btn btn-default btn-lg" style="background-color: rgba(0,0,0,0);border-color: rgba(0,0,0,0);width:18px;height:18px;padding: 0 0 0 0;">
+              <button id="elbo" type="button" class="btn btn-default btn-lg" style="background-color: rgba(0,0,0,0);border-color: rgba(0,0,0,0);width:18px;height:18px;padding: 0 0 0 0;" data-toggle="modal" data-target="#myModal">
                 <span id="logo" class="glyphicon glyphicon-cog" style="width: auto;height: auto;"></span>
-              </button>
-            </div>
+              </button>              
+            </div>            
           </div>
           <div id="progreso" style="margin-top:10px">
             progreso
@@ -204,6 +223,16 @@
         <!-- </ul> -->
       </div>
     </center>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script id="bsJs" type="text/javascript">
+      $(document).ready(function() {
+      $('#tooltip1').tooltip();
+      });
+    </script>
   </body>
 </html>
 
