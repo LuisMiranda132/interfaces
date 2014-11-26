@@ -19,7 +19,7 @@ WidgetCallBack([
         "left":"135px",
         "dif":"1",
         "prev":[0],
-        "link":"finLeccion.html",
+        "link":"notyet.html",
         "animal":false,
         "fav":false
     },
